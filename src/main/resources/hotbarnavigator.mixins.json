@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.tumod.hotbarnavigator.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "hotbarnavigator.refmap.json",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
