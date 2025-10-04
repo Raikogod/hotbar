@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbarnavigator",
+  "version": "1.0.0",
+  "name": "Hotbar Navigator",
+  "description": "Navegación rápida de hotbar con teclas Q y E",
+  "authors": ["Asikogod"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hotbarnavigator/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.tumod.hotbarnavigator.HotbarNavigatorMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
